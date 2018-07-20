@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Bariol;
+    src: url(../fonts/bariol/Bariol_Regular.otf);
+}
+body{
+    margin: 0px;
+    background-color: #fbfeff;
+}
+h1{
+    font-family: Bariol!important;
+    color: #be2a5f!important;
+}
+
+h3{
+    font-family: Bariol!important;
+    text-transform: uppercase;
+    color: #be2a5f!important;
+}
+
+.content{
+    padding: 10%;
+}
