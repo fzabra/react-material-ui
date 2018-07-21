@@ -8,15 +8,31 @@ body{
 }
 h1{
     font-family: Bariol!important;
-    color: #be2a5f!important;
+    color: #ce3f71!important;
 }
 
 h3{
     font-family: Bariol!important;
     text-transform: uppercase;
-    color: #be2a5f!important;
+    color: #ce3f71!important;
+}
+
+button{
+    border-radius: 20px!important;
 }
 
 .content{
     padding: 10%;
 }
+
+.customButton{
+    border-radius: 20px!important;
+}
+@media(max-width: 780px){
+    .content{
+        padding: 5%;
+    }
+    .cardLat {
+        display: none;
+    }
+  }
