@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FormRegister from './FormRegister';
 import Header from './Header';
-import Card from './Card';
+import Card from './CardStart';
 import Grid from '@material-ui/core/Grid';
 
 class Main extends Component {

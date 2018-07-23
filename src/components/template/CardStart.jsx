@@ -30,24 +30,22 @@ function SimpleMediaCard(props) {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="headline" component="h2" align="center">
-            Lizard
+          <Typography gutterBottom variant="headline" component="h3" align="center">
+            ABOUT US
           </Typography>
           <Typography component="p" align="center">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Knock over christmas tree. Nap all day. Scoot butt on the rug. Making sure that fluff gets into the owner’s eyes.
           </Typography>
         </CardContent>
         <CardActions>
             <div style={{ width: '100%', textAlign: 'right' }}>
                 <Button style={{ marginRight: '20px' }}>
-                Share
+                  DISMISS
                 </Button>
                 <Button variant="contained" color="secondary">
-                    Next
+                  Next
                 </Button>
-            </div>
-            
+            </div>            
         </CardActions>
       </Card>
     </div>
