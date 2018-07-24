@@ -52,7 +52,9 @@ button{
 
 .formControl {
 width: 100%;
+margin-top: 20px!important;
 }
+
 .btNext {
     background: linear-gradient(45deg, #de6690 30%, #ce3f71 90%);
     border-radius: 20px;
