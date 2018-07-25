@@ -1,70 +1,125 @@
 @font-face {
-    font-family: Bariol;
-    src: url(../fonts/bariol/Bariol_Regular.otf);
-}
-body{
-    margin: 0px;
-    background-color: #fbfeff;
-}
-h1{
-    font-family: Bariol!important;
-    color: #ce3f71!important;
+	font-family: Bariol;
+	src: url(../fonts/bariol/Bariol_Regular.otf);
 }
 
-h3{
-    font-family: Bariol!important;
-    text-transform: uppercase;
-    color: #ce3f71!important;
+body {
+	margin: 0px;
+	background-color: #fbfeff;
+	color:#505050!important;
 }
 
-button{
-    border-radius: 20px!important;
+h1 {
+	font-family: Bariol!important;
+	color: #ce3f71!important;
 }
 
-.content{
-    padding: 10%;
+h3 {
+	font-family: Bariol!important;
+	text-transform: uppercase;
+	color: #ce3f71!important;
 }
 
-.customButton{
-    border-radius: 20px!important;
-}
-@media(max-width: 780px){
-    .content{
-        padding: 5%;
-    }
-    .cardLat {
-        display: none;
-    }
+button {
+	border-radius: 20px!important;
 }
 
-
-.showDiv{
-    display: block;
+.close{
+	color:#505050;
+    position: absolute;
+    right: 5%;
+    top: 5%;
 }
 
-.hideDiv{
-    display: none;
+.content {
+	padding: 10%;
 }
 
-.textField{
-    width: 100%;
+.customButton {
+	border-radius: 20px!important;
+}
+
+.showDiv {
+	display: block;
+}
+
+.hideDiv {
+	display: none;
+}
+
+.textField {
+	width: 100%;
 }
 
 .formControl {
-width: 100%;
-margin-top: 20px!important;
+	width: 100%;
+	margin-top: 20px!important;
 }
 
 .btNext {
-    background: linear-gradient(45deg, #de6690 30%, #ce3f71 90%);
-    border-radius: 20px;
-    border: 0px;
-    color: white!important;
-    padding: 0 30px;
-    width: 100%;
-    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
-    margin-top: 30px!important;
+	background: linear-gradient(45deg, #de6690 30%, #ce3f71 90%);
+	border-radius: 20px;
+	border: 0px;
+	color: white!important;
+	padding: 0 30px;
+	width: 100%;
+	box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+	margin-top: 30px!important;
 }
+
 .label {
-text-transform: capitalize;
+	text-transform: capitalize;
+}
+
+.setColor{
+	color:#de6690!important;
+}
+
+.selectPagetwo {
+	width: 100%;
+	margin-top: 20px!important;
+}
+
+.textFieldHalf {
+	width: 100%;
+	margin-top: 20px!important;
+}
+
+.boldFont {
+	font-weight: bolder;
+}
+
+.buttonPrevious {
+	text-transform: initial!important;
+	font-weight: inherit!important;
+	margin-top: 32px!important;
+}
+
+.subTitle {
+	margin-bottom: 0px!important;
+	margin-top: 40px!important;
+}
+
+.textFieldEmail {
+	margin-bottom: 30px!important;
+}
+.MuiLinearProgress-barColorPrimary-10 {
+    background-color: #87c65f!important;
+}
+@media(max-width: 780px) {
+	.content {
+		padding: 5%;
+	}
+	.cardLat {
+		display: none;
+	}
+	.buttonPrevious {
+		margin-top: 0px!important;
+	}
+	.gridReturnLink {
+		text-align: center!important;
+	}
+	.close{
+		font-size: 30px;
+	}
 }

@@ -17,21 +17,52 @@ const styles = {
     height: 0,
     paddingTop: '56.25%', // 16:9
   },
+  cardB:{
+    display: 'none',
+  },
 };
 
 function SimpleMediaCard(props) {
   const { classes } = props;
   return (
-    <div className="cardLat">
-      <Card className={classes.card}>
+    <div>
+      <div className="cardLat">
+        <Card className={classes.cardA || classes.card}>
+          <CardMedia
+            className={classes.media}
+            image="images/images/logo.png"
+            title="Adopets"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="title" align="center" className="setColor">
+              ABOUT US
+            </Typography>
+            <Typography component="p" align="center">
+              Knock over christmas tree. Nap all day. Scoot butt on the rug. Making sure that fluff gets into the owner’s eyes.
+            </Typography>
+          </CardContent>
+          <CardActions>
+              <div style={{ width: '100%', textAlign: 'right' }}>
+                  <Button style={{ marginRight: '20px' }}>
+                    DISMISS
+                  </Button>
+                  <Button variant="contained" color="secondary">
+                    Next
+                  </Button>
+              </div>            
+          </CardActions>
+        </Card>
+      </div>
+      <div className="cardLat">
+      <Card className={classes.cardB || classes.card}>
         <CardMedia
           className={classes.media}
-          image="images/images/logo.png"
-          title="Contemplative Reptile"
+          image="images/images/pic.jpg"
+          title="SHELTER PICTURE TIP"
         />
         <CardContent>
-          <Typography gutterBottom variant="headline" component="h3" align="center">
-            ABOUT US
+          <Typography gutterBottom variant="title" align="center" className="setColor">
+            SHELTER PICTURE TIP
           </Typography>
           <Typography component="p" align="center">
             Knock over christmas tree. Nap all day. Scoot butt on the rug. Making sure that fluff gets into the owner’s eyes.
@@ -49,6 +80,7 @@ function SimpleMediaCard(props) {
         </CardActions>
       </Card>
     </div>
+  </div>
   );
 }
 
