@@ -5,9 +5,6 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import { green200 }  from '@material-ui/core/colors/purple';
 import Main from '../components/template/Main';
 
-
-injectTapEventPlugin();
-
 const theme = createMuiTheme({
   palette: {
     primary: green200,
